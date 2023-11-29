@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Form</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head-top">
+        <div class="top-left">
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href=""><strong>ngo@gmail.com</strong></a>
+            </div>
+          <div>
+            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+            <a href=""><strong>3966574236</strong></a>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </div>
+    </header> 
+    <main class="logo-nav flex">
+        <div class="resp-logo">
+            <a href="../index.html"><img src="../image/logo.png" alt=""></a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="./event.html">Events</a></li>     
+                <li><a href="">Pages</a></li>     
+                <li><a href="">Causes</a></li>     
+                <li><a href="./contact.html">Contact</a></li>     
+                <li><a href="">Blogs</a></li>    
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn bx bx-menu" id="menu-icon">
+          <i class="fa fa-bars" aria-hidden="true" class="mobile-nav-icon"></i>
+        </div>
+        <a href=""><button class="button">Donate</button></a>
+    </main>
+
+
+    
+     <!-- =========================================
+          DONATE_FORM PAGE 
+      ============================================  -->
+    <section class="donate-form">
+      <form action="">
+        <div class="input">
+          <label for="fname">Full Name:</label><br />
+          <input type="text" name="fname" placeholder="enter your full name..." />
+        </div>
+        <div class="input">
+          <label for="number">Phone Number:</label><br />
+          <input type="tel" placeholder="# # # # # # # # # # #" />
+        </div>
+        <div class="input">
+          <label for="">Email Address:</label><br />
+          <input type="text" placeholder="email1@gmail.com" />
+        </div>
+        <div>
+          <label for="">Donation Amount:</label>
+          <br />
+          <input type="number" class="amount" />
+        </div>
+
+        <div>
+          <label for="">Address :</label> <br>
+          <div class="form-address">
+            <label for="city">Country :</label>
+            <select name="city" id="city">
+            <option value="">select your country</option>
+            <option value="">Nepal</option>
+            <option value="">Bhutan</option>
+            <option value="">India</option>
+            <option value="">Pakistan</option>
+            </select>
+          <label for="state">State :</label>
+            <select name="state" id="state">
+            <option value="">select your state</option>
+            <option value="">Kathmandu</option>
+            <option value="">Thimpu</option>
+            <option value="">Chennai</option>
+            <option value="">Lahre</option>
+            </select> <br>
+          <label for="country">City :</label>
+            <select name="country" id="country">
+            <option value="">select your city</option>
+            <option value="">New-Road</option>
+            <option value="">Paro</option>
+            <option value="">Pune</option>
+            <option value="">Karachi</option>
+            </select>
+          </div>
+        </div>
+        <hr class="form-hr" style="display: block; margin: 5px;">
+        <button class="form-donate">Donate</button>
+      </form>
+    </section>
+  </body>
+</html>

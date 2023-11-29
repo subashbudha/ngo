@@ -1,0 +1,283 @@
+@media (max-width: 480px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  header .head-top {
+    flex-direction: column;
+    height: 12vh;
+  }
+  .search {
+    width: 97%;
+    margin: 5px 0;
+    position: relative;
+  }
+  .search input {
+    width: 100%;
+    border-radius: 5px;
+  }
+  main {
+    position: relative;
+  }
+  .resp-logo img {
+    width: 150px;
+    height: 40px;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar{
+        width: 200px;
+        height: 55vh;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        background: #9e29295c;
+        transition: all 0.5s ease;
+    }
+    .navbar-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-navbar-btn{
+        display: block;
+        z-index: 99;
+        position: absolute;
+        right: 5px;
+        font-size: x-large;
+    }
+
+  .button {
+    display: none;
+  }
+  .home-banner img {
+    height: 40vh;
+    object-fit: cover;
+  }
+  .home-info strong {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+  .home-info h2 {
+    font-size: 21px;
+    margin: 12px 0 7px 7px;
+  }
+  .home-info button {
+    padding: 10px 20px;
+    /* font-size: 14px; */
+  }
+  hr {
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #ff000039;
+    width: 99%;
+  }
+  .welcome-cont {
+    flex-direction: column;
+  }
+  .welcome-right {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .welcome-right img {
+    width: 365px;
+    margin-left: 10px;
+  }
+  .welcome-heading h2 {
+    margin: 60px 0 5px 0;
+    text-align: center;
+  }
+  .welcome-heading p {
+    margin: 0 110px;
+  }
+  .volunteer,
+  .donation,
+  p {
+    text-align: center;
+  }
+  .hope-heading p {
+    width: 100%;
+    margin: 21px 0;
+    font-size: 35px;
+  }
+  .hope-bg .content {
+    width: 90%;
+    margin: 70px 10px;
+    line-height: 30px;
+  }
+  .content-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 80%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-left {
+    width: 100%;
+  }
+  .footer-mid {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* =========================================
+    ABOUT_US PAGE CSS
+============================================ */
+
+  .about-bg {
+    position: relative;
+  }
+  .about-bg em {
+    position: absolute;
+    font-size: 14px;
+    top: 18px;
+  }
+  .about-bg strong {
+    position: absolute;
+    font-size: 31px;
+    top: 31px;
+  }
+  .about-who h2 {
+    font-size: 45px;
+    margin: 0;
+  }
+  .about-who strong,
+  h2 {
+    text-align: center;
+    padding: 0 5px;
+  }
+  .about-who hr {
+    margin: 5px;
+  }
+  .about-article {
+    flex-direction: column;
+    position: relative;
+  }
+  .about-article figure {
+    position: relative;
+    width: 65%;
+    left: 23px;
+  }
+  .about-article .img-over {
+    height: 56%;
+    width: 78%;
+  }
+
+  .about-article aside {
+    width: 89%;
+    top: 115%;
+    left: 4%;
+  }
+  .about-approach {
+    margin-top: 200%;
+    padding-top: 0;
+  }
+  .about-approach h2 {
+    font-size: 31px;
+  }
+  .about-approach main {
+    flex-direction: column;
+    width: 200vw;
+  }
+  .about-support {
+    font-size: 15px;
+    line-height: 41px;
+  }
+
+  /* =========================================
+            DONATE-FORM PAGE CSS
+    ============================================ */
+  .donate-form form {
+    margin-right: 280px;
+    padding: 80px;
+    background: url(../image/form-bg2.jpg);
+    opacity: 80%;
+    height: auto;
+    border-radius: 3%;
+  }
+  .input input {
+    padding: 7px;
+    margin-top: 5px;
+    width: 90%;
+  }
+  form > div {
+    padding: 23px 0 12px 1px;
+  }
+  .amount {
+    width: 85%;
+    padding: 7px;
+  }
+  .form-address,
+  select {
+    padding: 7px 25px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  .form-donate {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 115px;
+    background: #3507aa;
+    color: #ffffff;
+    padding: 12px 27px;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+  .form-hr {
+    width: 100%;
+    height: 2px;
+    background: red;
+  }
+
+  /* =========================================
+            CONTACT-FORM PAGE CSS
+    ============================================ */
+
+  #contact-form {
+    flex-direction: column;
+  }
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background: #ff000022;
+    padding: 20px;
+    height: 470px;
+    opacity: 81%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    border-radius: 5%;
+    border: 5px solid rgba(177, 112, 112, 0.592);
+  }
+  #contact-textarea {
+    width: 90%;
+    height: 45%;
+  }
+  .contact-btn {
+    padding: 10px 20px;
+    background: #2a0bb6;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5%;
+    margin: 5px 115px;
+    font-weight: 600;
+  }
+  .contact-btn:hover {
+    background: orangered;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  
+
+}
